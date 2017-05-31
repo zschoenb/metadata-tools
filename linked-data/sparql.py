@@ -1,4 +1,4 @@
-from SPARQLWrapper import SPARQLWrapper, JSON, RDF, XML
+from SPARQLWrapper import SPARQLWrapper, XML
 
 
 sparql = SPARQLWrapper("")
