@@ -1,29 +1,29 @@
 # Namespaces
    
-**bibo:** http://purl.org/ontology/bibo/
-**cc:** http://creativecommons.org/ns#
-**dc:** http://purl.org/dc/elements/1.1/
-**dcterms:** http://purl.org/dc/terms/
-**eprints:** http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#
-**fabio:** http://purl.org/spar/fabio#
-**geonames:** http://www.geonames.org/ontology#
-**iana:** http://www.iana.org/assignments/media-types/
-**lang:** http://id.loc.gov/vocabulary/iso639-2/
-**mrel:** http://id.loc.gov/vocabulary/relators/
-**naf:** http://id.loc.gov/authorities/names/
-**obo:** http://purl.obolibrary.org/obo/
-**pcdm:** http://pcdm.org/models#
-**prism:** http://prismstandard.org/namespaces/basic/3.0/
-**rdf:** http://www.w3.org/1999/02/22-rdf-syntax-ns#
-**rdfs:** http://www.w3.org/2000/01/rdf-schema#
-**skos:** http://www.w3.org/2004/02/skos/core#
-**status:** http://www.w3.org/2003/06/sw-vocab-status/ns#
-**owl:** http://www.w3.org/2002/07/owl#
-**tgn:** http://vocab.getty.edu/tgn/
-**ual:** http://terms.library.ualberta.ca/
-**vivo:** http://vivoweb.org/ontology/core#
-**works:** http://pcdm.org/works#
-**xsd:** http://www.w3.org/2001/XMLSchema#
+  **bibo:** http://purl.org/ontology/bibo/
+  **cc:** http://creativecommons.org/ns#
+  **dc:** http://purl.org/dc/elements/1.1/
+  **dcterms:** http://purl.org/dc/terms/
+  **eprints:** http://www.ukoln.ac.uk/repositories/digirep/index/Eprints_Type_Vocabulary_Encoding_Scheme#
+  **fabio:** http://purl.org/spar/fabio#
+  **geonames:** http://www.geonames.org/ontology#
+  **iana:** http://www.iana.org/assignments/media-types/
+  **lang:** http://id.loc.gov/vocabulary/iso639-2/
+  **mrel:** http://id.loc.gov/vocabulary/relators/
+  **naf:** http://id.loc.gov/authorities/names/
+  **obo:** http://purl.obolibrary.org/obo/
+  **pcdm:** http://pcdm.org/models#
+  **prism:** http://prismstandard.org/namespaces/basic/3.0/
+  **rdf:** http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  **rdfs:** http://www.w3.org/2000/01/rdf-schema#
+  **skos:** http://www.w3.org/2004/02/skos/core#
+  **status:** http://www.w3.org/2003/06/sw-vocab-status/ns#
+  **owl:** http://www.w3.org/2002/07/owl#
+  **tgn:** http://vocab.getty.edu/tgn/
+  **ual:** http://terms.library.ualberta.ca/
+  **vivo:** http://vivoweb.org/ontology/core#
+  **works:** http://pcdm.org/works#
+  **xsd:** http://www.w3.org/2001/XMLSchema#
    
 # predicates  
    pcdm:fileOf
