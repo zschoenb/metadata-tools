@@ -3,14 +3,13 @@
    **rdfs:comment:** defines the term or property  
    **rdfs:domain:** indcates terms (classes, values, datatypes, etc.) that may invoke a given property  
    **rdfs:range:** indicates terms (classes, values, datatypes, etc.) that must be used with this property  
-   **rdfs:label:** the name of the term or property  
+   **rdfs:\label:** the name of the term or property  
    **rdfs:preflabel:** the label preferred for display  
    **owl:deprecated:** indicates whether the property or term is active in the current deployment (default = false)  
    **owl:backwardCompatible:** mappings to previous vocabularies used in previous deployments  
    
 # Namespaces
    
-
    **bibo:** http://purl.org/ontology/bibo/  
    **cc:** http://creativecommons.org/ns#  
    **dc:** http://purl.org/dc/elements/1.1/  
@@ -58,11 +57,8 @@
    **rdfs:subPropertyOf**   
   http://www.openarchives.org/ore/terms/isAggregatedBy  
    
-
    **owl:inverseOf**   
   http://pcdm.org/models#hasFile  
-  
-- [ ] Flag for editing
    
 ***
 #### pcdm:hasFile
@@ -84,7 +80,6 @@
    
    **rdfs:subPropertyOf**   
   http://www.openarchives.org/ore/terms/aggregates  
-- [ ] Mark for editing
    
 ***
 #### pcdm:hasMember
@@ -109,7 +104,6 @@
    
    **owl:inverseOf**   
   http://pcdm.org/models#memberOf  
-- [ ] Mark for editing
    
 ***
 #### pcdm:hasRelatedObject
@@ -134,7 +128,6 @@
    
    **owl:inverseOf**   
   http://pcdm.org/models#relatedObjectOf  
-- [ ] Mark for editing
    
 ***
 #### pcdm:memberOf
@@ -156,7 +149,6 @@
    
    **rdfs:subPropertyOf**   
   http://www.openarchives.org/ore/terms/isAggregatedBy  
-- [ ] Mark for editing
    
 ***
 #### pcdm:relatedObjectOf
@@ -178,7 +170,6 @@
    
    **rdfs:subPropertyOf**   
   http://www.openarchives.org/ore/terms/isAggregatedBy  
-- [ ] Mark for editing
    
 ***
 #### prism:doi
@@ -197,7 +188,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### dc:Contributor
@@ -230,7 +220,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### dc:Creator
@@ -265,7 +254,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### dc:Rights
@@ -290,7 +278,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### dc:Subject
@@ -315,7 +302,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### dcterms:abstract
@@ -341,7 +327,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/description  
   http://purl.org/dc/terms/description  
-- [ ] Mark for editing
    
 ***
 #### dcterms:alternative
@@ -370,7 +355,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/title  
   http://purl.org/dc/terms/title  
-- [ ] Mark for editing
    
 ***
 #### dcterms:created
@@ -404,7 +388,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/date  
   http://www.w3.org/2002/07/owl#topDataProperty  
-- [ ] Mark for editing
    
 ***
 #### dcterms:dateAccepted
@@ -433,7 +416,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/date  
   http://www.w3.org/2002/07/owl#topDataProperty  
-- [ ] Mark for editing
    
 ***
 #### dcterms:dateSubmitted
@@ -462,7 +444,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/date  
   http://www.w3.org/2002/07/owl#topDataProperty  
-- [ ] Mark for editing
    
 ***
 #### dcterms:description
@@ -499,7 +480,6 @@
    
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/description  
-- [ ] Mark for editing
    
 ***
 #### dcterms:identifier
@@ -524,7 +504,6 @@
    
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/identifier  
-- [ ] Mark for editing
    
 ***
 #### dcterms:isVersionOf
@@ -550,7 +529,6 @@
    
    **skos:note**   
   This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration.  
-- [ ] Mark for editing
    
 ***
 #### dcterms:language
@@ -579,7 +557,6 @@
    
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/language  
-- [ ] Mark for editing
    
 ***
 #### dcterms:license
@@ -605,7 +582,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/rights  
   http://www.w3.org/2002/07/owl#topObjectProperty  
-- [ ] Mark for editing
    
 ***
 #### dcterms:modified
@@ -631,7 +607,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/date  
   http://www.w3.org/2002/07/owl#topDataProperty  
-- [ ] Mark for editing
    
 ***
 #### dcterms:relation
@@ -656,7 +631,6 @@
    
    **skos:note**   
   This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration.  
-- [ ] Mark for editing
    
 ***
 #### dcterms:source
@@ -682,7 +656,6 @@
    
    **skos:note**   
   This term is intended to be used with non-literal values as defined in the DCMI Abstract Model (http://dublincore.org/documents/abstract-model/).  As of December 2007, the DCMI Usage Board is seeking a way to express this intention with a formal range declaration.  
-- [ ] Mark for editing
    
 ***
 #### dcterms:spatial
@@ -715,7 +688,6 @@
    
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/coverage  
-- [ ] Mark for editing
    
 ***
 #### dcterms:temporal
@@ -749,7 +721,6 @@
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/coverage  
   http://www.w3.org/2002/07/owl#topObjectProperty  
-- [ ] Mark for editing
    
 ***
 #### dcterms:title
@@ -775,7 +746,6 @@
    
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/title  
-- [ ] Mark for editing
    
 ***
 #### dcterms:type
@@ -803,7 +773,6 @@
    
    **rdfs:subPropertyOf**   
   http://purl.org/dc/elements/1.1/type  
-- [ ] Mark for editing
    
 ***
 #### bibo:degree
@@ -839,7 +808,6 @@
    **http://www.w3.org/2008/05/skos#editorialNote**   
   We are not defining, using an enumeration, the range of the bibo:degree to the defined list of bibo:ThesisDegree. We won't do it because we want people to be able to define new degress if needed by some special usecases. Creating such an enumeration would restrict this to happen.  
   [editor: Zach Schoenberger; date: 22-08-2017] Currently being used with literal. To bring in line with vocab, instances of 'thesis degree' need to be used, minted in ual namespace.  
-- [ ] Mark for editing
    
 ***
 #### bibo:status
@@ -867,7 +835,6 @@
    
    **skos:editorialNote**   
   We are not defining, using an enumeration, the range of the bibo:status to the defined list of bibo:DocumentStatus. We won't do it because we want people to be able to define new status if needed by some special usecases. Creating such an enumeration would restrict this to happen.  
-- [ ] Mark for editing
    
 ***
 #### ual:Dissertant
@@ -892,7 +859,6 @@
    
    **rdfs:subPropertyOf**   
   http://www.w3.org/2002/07/owl#topDataProperty  
-- [ ] Mark for editing
    
 ***
 #### ual:ark
@@ -918,7 +884,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:commiteeMember
@@ -937,7 +902,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:department
@@ -957,7 +921,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:depositor
@@ -980,7 +943,6 @@
    
    **owl:deprecated**   
   true  
-- [ ] Mark for editing
    
 ***
 #### ual:fedora3Handle
@@ -999,7 +961,6 @@
    
    **owl:deprecated**   
   true  
-- [ ] Mark for editing
    
 ***
 #### ual:fedora3UUID
@@ -1019,7 +980,6 @@
    
    **owl:deprecated**   
   true  
-- [ ] Mark for editing
    
 ***
 #### ual:graduationDate
@@ -1038,7 +998,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:institution
@@ -1054,7 +1013,6 @@
    
    **rdfs:label**   
   Institution  
-- [ ] Mark for editing
    
 ***
 #### ual:nnaFile
@@ -1070,7 +1028,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:nnaItem
@@ -1083,7 +1040,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:proquest
@@ -1108,7 +1064,6 @@
    
    **owl:deprecated**   
   true  
-- [ ] Mark for editing
    
 ***
 #### ual:specialization
@@ -1128,7 +1083,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:supervisor
@@ -1147,7 +1101,6 @@
    
    **rdfs:range**   
   http://www.w3.org/2000/01/rdf-schema#Literal  
-- [ ] Mark for editing
    
 ***
 #### ual:thesisLevel
@@ -1166,7 +1119,6 @@
    
    **rdfs:range**   
   http://purl.org/spar/fabio/Thesis  
-- [ ] Mark for editing
    
 ***
 #### ual:unicorn
@@ -1179,7 +1131,6 @@
    
    **rdfs:label**   
   Unicorn  
-- [ ] Mark for editing
    
 ***
 # Terms  
@@ -1196,7 +1147,6 @@
    
    **rdfs:subClassOf**   
   http://purl.org/dc/terms/LicenseDocument  
-- [ ] Mark for editing
    
 ***
 #### pcdm:AlternateOrder
@@ -1212,7 +1162,6 @@
    
    **rdfs:subClassOf**   
   http://pcdm.org/models#Object  
-- [ ] Mark for editing
    
 ***
 #### pcdm:Collection
@@ -1228,7 +1177,6 @@
    
    **rdfs:subClassOf**   
   http://www.openarchives.org/ore/terms/Aggregation  
-- [ ] Mark for editing
    
 ***
 #### pcdm:File
@@ -1241,7 +1189,6 @@
    
    **rdfs:label**   
   File  
-- [ ] Mark for editing
    
 ***
 #### pcdm:Object
@@ -1257,7 +1204,6 @@
    
    **rdfs:subClassOf**   
   http://www.openarchives.org/ore/terms/Aggregation  
-- [ ] Mark for editing
    
 ***
 #### works:FileSet
@@ -1273,7 +1219,6 @@
    
    **rdfs:subClassOf**   
   http://pcdm.org/models#Object  
-- [ ] Mark for editing
    
 ***
 #### works:Range
@@ -1292,7 +1237,6 @@
    
    **skos:closeMatch**   
   http://iiif.io/model/shared-canvas/1.0/#Range  
-- [ ] Mark for editing
    
 ***
 #### works:TopRange
@@ -1311,7 +1255,6 @@
    
    **skos:closeMatch**   
   http://iiif.io/model/shared-canvas/1.0/#Range  
-- [ ] Mark for editing
    
 ***
 #### works:Work
@@ -1327,14 +1270,12 @@
    
    **rdfs:subClassOf**   
   http://pcdm.org/models#Object  
-- [ ] Mark for editing
    
 ***
 #### dcterms:LicenseDocument
    
    **rdfs:label**   
   License Document  
-- [ ] Mark for editing
    
 ***
 #### bibo:Article
@@ -1356,7 +1297,6 @@
    
    **skos:preflabel**   
   Journal Article  
-- [ ] Mark for editing
    
 ***
 #### bibo:Book
@@ -1375,7 +1315,6 @@
    
    **status:term_status**   
   stable  
-- [ ] Mark for editing
    
 ***
 #### bibo:BookSection
@@ -1385,7 +1324,6 @@
    
    **rdfs:label**   
   Book Section  
-- [ ] Mark for editing
    
 ***
 #### bibo:Chapter
@@ -1407,7 +1345,6 @@
    
    **skos:preflabel**   
   Chapter  
-- [ ] Mark for editing
    
 ***
 #### bibo:Document
@@ -1417,7 +1354,6 @@
    
    **rdfs:label**   
   Document  
-- [ ] Mark for editing
    
 ***
 #### bibo:DocumentStatus
@@ -1433,7 +1369,6 @@
    
    **status:term_status**   
   stable  
-- [ ] Mark for editing
    
 ***
 #### bibo:Image
@@ -1452,7 +1387,6 @@
    
    **status:term_status**   
   stable  
-- [ ] Mark for editing
    
 ***
 #### bibo:Report
@@ -1471,7 +1405,6 @@
    
    **status:term_status**   
   stable  
-- [ ] Mark for editing
    
 ***
 #### bibo:Thesis
@@ -1490,7 +1423,6 @@
    
    **status:term_status**   
   stable  
-- [ ] Mark for editing
    
 ***
 #### bibo:ThesisDegree
@@ -1506,7 +1438,6 @@
    
    **status:term_status**   
   stable  
-- [ ] Mark for editing
    
 ***
 #### http://purl.org/spar/fabio/DoctoralThesis
@@ -1525,7 +1456,6 @@
    
    **owl:disjointWith**   
   http://purl.org/spar/fabio/MastersThesis  
-- [ ] Mark for editing
    
 ***
 #### http://purl.org/spar/fabio/MastersThesis
@@ -1541,11 +1471,9 @@
    
    **rdfs:subClassOf**   
   http://purl.org/spar/fabio/Thesis  
-- [ ] Mark for editing
    
 ***
 #### http://purl.org/spar/fabio/Thesis
-- [ ] Mark for editing
    
 ***
 #### ual:learningObject
@@ -1558,7 +1486,6 @@
    
    **rdfs:label**   
   Learning Object  
-- [ ] Mark for editing
    
 ***
 #### ual:researchMaterial
@@ -1571,7 +1498,6 @@
    
    **rdfs:label**   
   Research Material  
-- [ ] Mark for editing
    
 ***
 #### vivo:ConferencePaper
@@ -1584,7 +1510,6 @@
    
    **rdfs:subClassOf**   
   http://purl.org/ontology/bibo/Article  
-- [ ] Mark for editing
    
 ***
 #### vivo:ConferencePoster
@@ -1597,7 +1522,6 @@
    
    **rdfs:subClassOf**   
   http://purl.org/ontology/bibo/Document  
-- [ ] Mark for editing
    
 ***
 #### vivo:Dataset
@@ -1613,7 +1537,6 @@
    
    **rdfs:subClassOf**   
   http://purl.org/ontology/bibo/Document  
-- [ ] Mark for editing
    
 ***
 #### vivo:Review
@@ -1626,11 +1549,9 @@
    
    **rdfs:subClassOf**   
   http://purl.org/ontology/bibo/Article  
-- [ ] Mark for editing
    
 ***
 #### ore:Aggregation
-- [ ] Mark for editing
    
 ***
 # Values  
@@ -1638,90 +1559,77 @@
    
    **skos:preflabel**   
   English  
-- [ ] Mark for editing
    
 ***
 #### lang:fre
    
    **skos:preflabel**   
   French  
-- [ ] Mark for editing
    
 ***
 #### lang:ger
    
    **skos:preflabel**   
   German  
-- [ ] Mark for editing
    
 ***
 #### lang:ipk
    
    **skos:preflabel**   
   Inupiaq  
-- [ ] Mark for editing
    
 ***
 #### lang:ita
    
    **skos:preflabel**   
   Italian  
-- [ ] Mark for editing
    
 ***
 #### lang:jpn
    
    **skos:preflabel**   
   Japanese  
-- [ ] Mark for editing
    
 ***
 #### lang:por
    
    **skos:preflabel**   
   Portuguese  
-- [ ] Mark for editing
    
 ***
 #### lang:rus
    
    **skos:preflabel**   
   Russian  
-- [ ] Mark for editing
    
 ***
 #### lang:spa
    
    **skos:preflabel**   
   Spanish  
-- [ ] Mark for editing
    
 ***
 #### lang:ukr
    
    **skos:preflabel**   
   Ukranian  
-- [ ] Mark for editing
    
 ***
 #### lang:vie
    
    **skos:preflabel**   
   Vietnamese  
-- [ ] Mark for editing
    
 ***
 #### lang:zho
    
    **skos:preflabel**   
   Chinese  
-- [ ] Mark for editing
    
 ***
 #### lang:zxx
    
    **skos:preflabel**   
   No linguistic content  
-- [ ] Mark for editing
    
 ***
